@@ -6,7 +6,7 @@ MU = c(2.0, 1.0)
 N=50
 out <- mvrnorm(N, mu = MU, Sigma = SIGMA)
 plot(out)
-abline(lm(out[,2]~out[,1]), col="red") 
+abline(lm(out[,2]~out[,1]), col="red")
 
 y <- out[, 2]
 X <- out[, 1]
@@ -51,6 +51,10 @@ var <- 4
 reg <- function(n, MU, SIGMA){
   # MU and SIGMA are randomely chosen unless specific values are assigned
   if(is.na(MU)){
+  ##### Comment
+  # Be careful here as var is a global variable. You should either pass it
+  # into the function or throw an error in the case that mu and sigma unspec
+  # -ified, or fix a default value for var.
     MU<-runif(var, 1, 50)
   }
   if(is.na(SIGMA)){
@@ -67,7 +71,9 @@ reg <- function(n, MU, SIGMA){
   invXTX = solve(XTX)
   XTy = XT%*%y
   beta = invXTX %*% XTy
+  ###### Comment
+  # Don't forget to return your answer, otherwise your function just prints
+  # beta to the screen.
   beta
 }
 reg(n = 50, MU = NA, SIGMA = NA)
-
