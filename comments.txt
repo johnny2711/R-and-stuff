@@ -11,3 +11,8 @@ functions are important and difficult. See you Friday!
 the code for inline comments) and always have functions either explicitly do
 something, either return or print, but don't use simply `beta` as in the last
 line of the function, this is not a clean approach. That being said great job!
+
+2016.10.25 - HW5 and HW6 - Thanks for the note! I understand these
+             weeks are very busy. Thanks for your note about the comments
+             also, good to know someone is reading them! I hope your
+             tests went well and you enjoy the break. 
