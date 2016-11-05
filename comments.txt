@@ -15,4 +15,8 @@ line of the function, this is not a clean approach. That being said great job!
 2016.10.25 - HW5 and HW6 - Thanks for the note! I understand these
              weeks are very busy. Thanks for your note about the comments
              also, good to know someone is reading them! I hope your
-             tests went well and you enjoy the break. 
+             tests went well and you enjoy the break.
+
+2016.11.05 - HW7 and HW8 - Only 7 submitted, but problems with os update caused
+             devtools to break? Great job and thanks for not including any
+             spoilers... I'm about to start the last book!
